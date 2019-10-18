@@ -21,4 +21,4 @@ app.get("/categories/:id", async (req, res) => {
   res.render("category", data);
 });
 
-app.listen(3000);
+app.listen(process.env.PORT);
